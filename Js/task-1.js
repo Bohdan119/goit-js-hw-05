@@ -1,10 +1,9 @@
-const getUserNames = users => { 
+const getUserNames = (users) => { 
 
-    let newArray = [""];
-    newArray = users.map(user => user.name);
-    // const newArray = users.map(user => user.name);
     
-    
+    const newArray = users.map(item => item.name);
+    return newArray;
+
 };
     
 
